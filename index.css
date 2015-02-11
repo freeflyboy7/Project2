@@ -1,0 +1,36 @@
+*{
+	font-family: Helvetica;
+	color:#737373;
+}
+
+h1{
+	text-align: center;
+	color:#f97300;
+	font-size: 40px;
+}
+
+.button{
+	padding:10px 10px;
+	border:1px solid #737373;
+	text-decoration: none;
+	border-radius: 5px;
+	background-color: #737373;
+	color:white;
+	width: 130px;
+	height: 15px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.nav{
+	display: inline;
+}
+
+#ulnav{
+	text-align: center;
+}
+
+.button:hover{
+	background-color:#737373;
+	color:#f97300;
+}
