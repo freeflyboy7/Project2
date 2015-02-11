@@ -1,12 +1,10 @@
-*{
-	font-family: Helvetica;
-	color:#737373;
-}
-
 h1{
 	text-align: center;
 	color:#f97300;
-	font-size: 40px;
+	font-size: 45px;
+	font-family: Helvetica;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .button{
@@ -28,6 +26,7 @@ h1{
 
 #ulnav{
 	text-align: center;
+	font-family: Helvetica;
 }
 
 .button:hover{
