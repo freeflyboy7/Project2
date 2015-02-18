@@ -6,5 +6,34 @@ p {
 
 h2{
 	font-family: helvetica; 
-	color: #gray; 
+	color: #737373; 
+}
+
+/*.pic {
+	max-width: 200%;
+	height: auto;
+	position: center;
+	padding-left: 50px;
+	padding: 50px;*/
+}
+
+.pic { 
+	width: 200px;
+	height:auto;
+	padding: 50px;
+	margin-left: 500px;
+	float: left;
+
+}
+.cat {
+	width: 200px;
+	height: auto;
+	position:center;
+	padding-left:50px;
+	padding: 50px;
+	float:left; 
+}
+
+.p {float: left;
+
 }
