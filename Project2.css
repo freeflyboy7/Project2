@@ -1,7 +1,7 @@
 /*The DropDown Menu Starts here!!*/
 #nav {
     position:relative;
-    top: 10px;
+    top: 1px;
     left: 125px;
     background-color: #4183D7;
     font-size: 30px;
@@ -10,8 +10,9 @@
 
 }
 #navwrapper {
+
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     margin-right: 1px;
     color: yellow;
     padding: 0 auto;
@@ -50,6 +51,7 @@
     padding-left: 5px;
 }           /*/////////////////////////background of DropDown Menu*/
 #nav ul ul{
+
     display: none;
     position: absolute;
     background-color: #4183D7;
@@ -70,14 +72,39 @@
 
 /* ////////////////////////////The end of the DropDown Menu*/
 /*///////////////////////CSS*/
+body {
+    background-color: silver;
+}
 h1 {
-	position: fixed;
-	margin-top: 30px;
-	left:150px;
-	font-size: 60px;
+    padding: 5px;
+	position: relative;
+	top:0px;
+    text-align: center;	
+    font-size: 60px;
+    z-index: 2;
 }
 #pic1 {
 	width:80%;
+    position: relative;
+    margin-top: 5px
 
 
+}
+p {
+    text-indent: 35px;
+    width: 400px;
+    border: 2px dotted silver;
+    float: left;
+    margin-left: 125px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+#foot {
+
+    float: left;
+    bottom: 5px;
+    background-color: blue;
+    clear: both;
 }
