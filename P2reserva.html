@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   
         <link rel="stylesheet" type="text/css" href="Project2_css.css"/>
     <title>Expediton</title>
     <meta chartset="utf-8"/>
+    <style>#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
 
   </head>
 
@@ -30,6 +44,8 @@
           </div>
         </div>
         <hr>
+        <div id="flip">Click here to Reveal form</div>
+        <div id="panel">
         <form action="">
           <fieldset>
             <legend>
@@ -112,6 +128,7 @@
                   <h4>Upon submission you will be contacted by our staff with further information</h4>
                 </fieldset>
             </form>
+          </div>
 
         <div id="share-buttons">
  <!-- Facebook -->
@@ -135,7 +152,13 @@
      <h6>&copy All rights reserved 2015<br>Expedition Adventure.</h6>
 
 
-
+            <script> 
+      $(document).ready(function(){
+          $("#flip").click(function(){
+              $("#panel").slideToggle("slow");
+          });
+      });
+</script>
 
 
 </body>
