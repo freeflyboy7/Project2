@@ -1,0 +1,193 @@
+/*The DropDown Menu Starts here!!*/
+#nav {
+    position:relative;
+    top: 1px;
+    left: 127px;
+    background-color: #4183D7;
+    font-size: 30px;
+    width: 80%;
+
+
+}
+#navwrapper {
+
+    margin: 0 auto;
+    text-align: center;
+    color: yellow;
+    padding: 0 auto;
+    opacity: 1;
+
+}
+#nav ul {
+    list-style-type: none;
+    padding:0px;
+    margin: 0;
+    position: relative;
+}
+#nav ul li {
+    display:inline-block;
+}
+#nav ul li:hover{
+    background-color: #4183D7;
+    
+
+}                   /*//////////////////// menu text color*/
+#nav ul li a{
+    color:black;
+    display: block;
+    padding:20px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li:hover ul {
+    display: block;
+    }
+#nav ul li img {
+    vertical-align: middle;
+    padding-left: 5px;
+}           /*/////////////////////////background of DropDown Menu*/
+#nav ul ul{
+
+    display: none;
+    position: absolute;
+    background-color: #4183D7;
+    border:5px solid #4183D7;
+    border-top: 0;
+    margin-left:-5px;
+    min-width: 150px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#nav ul ul li{
+        display: block;
+
+
+}
+#nav ul ul li a{
+    color: white;
+}
+#nav ul ul li a:hover{
+    color: silver;
+    }              
+
+/* ////////////////////////////The end of the DropDown Menu*/
+/*///////////////////////CSS*/
+body {
+    background-color: silver;
+}
+h1 {
+    padding: 5px;
+    position: relative;
+    top:0px;
+    text-align: center; 
+    font-size: 60px;
+    z-index: 2;
+}
+h1 span {
+    font-size: 15px;
+    background-color: silver;/*   Register Trade Mark     */
+}
+#pic1 {
+    width:80%;
+    position: relative;/*     Header Picture      */
+    margin-top: 5px
+
+
+}     
+/*       Gallery Pics      */
+
+#pc1 img {
+   
+    top: 20px;
+    left:127px;
+    display:inline;
+    width:200px;
+    height: 200px;
+}
+.gallery {
+    list-style-type: none;
+    display: inline-block;
+}
+blockquote {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    position: relative;
+    top: 70px;
+    display: block;
+    width:200px;
+    font-family: italic,Helvetica;
+    font-size: 24px;
+}
+#para1 {
+    text-indent: 35px;
+    width: 400px;
+    float: left;
+    margin-left: 125px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+}
+#para2  {
+    text-indent: 35px;
+    width: 400px;
+    float: left;
+    margin-left: 15px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+}
+.questions {
+    margin-top: 40px;
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 127px;
+}
+footer  {
+    float: left;
+   clear: both;
+   bottom:50px;
+   left: 127px;
+}
+h6 {
+    float: right;
+    position: relative;
+    right: 127px;
+    bottom: 30px;
+}
+#top {
+
+    position: relative;
+    top: 850px;    
+    display: inline;
+    right: 200px;
+    position: relative;
+    z-index: 3;
+}
+div.img {
+    margin-left: 140px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}   
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
