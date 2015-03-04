@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Project2_css.css"/>
     <title>Expediton Gallery</title>
     <meta chartset="utf-8"/>
@@ -16,7 +19,7 @@
                 <ul>
                   <li><a href="P2home.html">Home</a></li><li>
                   <a href="P2history.html">About</a></li><li>
-                  <a href="">Expeditions <img src=""></a>
+                  <a href="P2reserva.html">Expeditions <img src=""></a>
                   <ul>
                     <li><a href="P2gallery.html">Gallery</a></li>
                     <li><a href="P2reserva.html">Reservations</a></li>
@@ -26,31 +29,37 @@
                 </ul>
               </div>
             </div><br>
+                    <div id="flip">Click to slide down Pictures</div><br>
 
-    <div class="img">
-       <a target="_blank" href="klematis_big.htm"><img src="http://adventureexpress.co/images/k2-4.jpg" alt="Klematis" width="110" height="90"></a>
+
+    <div id="img">
+       <a target="_blank" href="klematis1_big.htm"><img src="http://adventureexpress.co/images/k2-4.jpg" alt="Klematis" width="110" height="90"></a>
        <div class="desc">Everest</div>
-      </div>
-      <div class="img">
+  
        <a target="_blank" href="klematis2_big.htm"><img src="http://www.mountainguides.com/photos/kilimanjaro/side-kilimanjaro2.jpg" alt="Klematis" width="110" height="90"></a>
        <div class="desc">K2</div>
-      </div>
-      <div class="img">
+    
        <a target="_blank" href="klematis3_big.htm"><img src="http://www.asahi-net.or.jp/~nm3k-tgc/tibet/jpg2/016.jpg" alt="Klematis" width="110" height="90"></a>
        <div class="desc">Kilamanjaro</div>
-      </div>
-      <div class="img">
+    
        <a target="_blank" href="klematis4_big.htm"><img src="http://www.macrobusiness.com.au/wp-content/uploads/2012/02/2076664971-85d9a064d1-200x200.jpg" alt="Klematis" width="110" height="90"></a>
        <div class="desc">Mt.Rainer</div>
     </div><br><br><hr>
-      
-
       <div id="para1">But Everest shouldn’t be measured in dollars and cents. A study by Ryan Howell, assistant professor of psychology at San Francisco State University, shows that people derive greater satisfaction from experiences rather than investing in possessions.  When I reached my goal after hours of breathless climbing and weeks on the mountain, I fell to my knees with tears of happiness as I listened to Nina Simone’s version of Here Comes the Sun. I scattered the ashes of a loved one and then pulled out pictures of those close to me that I brought as insurance in case something happened. This was a perfect moment in my life and replays over and over again.</p>
 
 
+        <div id="top"><a href="#top">Top of Page</a></div>
 
+    <script> 
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#img").slideDown(5000);
+            });
+            
+        });
+    </script>
 
-
+     
 
 </body>
 </html>

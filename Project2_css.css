@@ -1,3 +1,4 @@
+
 /*The DropDown Menu Starts here!!*/
 #nav {
     position:relative;
@@ -78,6 +79,11 @@
 body {
     background-color: silver;
 }
+@media all and (max-width: 500px){
+    body{
+        background-color: yellow;
+    }
+}
 h1 {
     padding: 5px;
     position: relative;
@@ -92,7 +98,7 @@ h1 span {
 }
 #pic1 {
     width:80%;
-    position: relative;/*     Header Picture      */
+    /*     Header Picture      */
     margin-top: 5px
 
 
@@ -162,14 +168,11 @@ h6 {
 }
 #top {
 
-    position: relative;
-    top: 850px;    
+    float: right;
     display: inline;
-    right: 200px;
-    position: relative;
     z-index: 3;
 }
-div.img {
+#img {
     margin-left: 140px;
     padding: 5px;
     border: 1px solid #0000ff;
@@ -177,9 +180,9 @@ div.img {
     width: auto;
     float: left;
     text-align: center;
+    display: none;
 }   
-
-div.img img {
+#img img {
     display: inline;
     margin: 5px;
     border: 1px solid #ffffff;
@@ -191,3 +194,12 @@ div.desc {
   width: 120px;
   margin: 5px;
 }
+#flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #silver;
+    color: white;
+    border: solid 1px blue;
+    border-radius: 3px
+    }
