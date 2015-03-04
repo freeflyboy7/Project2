@@ -181,16 +181,15 @@ h6 {
     bottom: 30px;
 }
 #top {
-    position: fixed;
+    position: relative;
     bottom:10px;
-    left: 550px;
+    left:450px;
     display: inline;
     z-index: 3;
 }
 #img {
     margin-left: 140px;
     padding: 5px;
-    border: 1px solid #0000ff;
     height: auto;
     width: auto;
     float: left;
@@ -198,9 +197,7 @@ h6 {
     display: none;
 }   
 #img img {
-    display: inline;
     margin: 5px;
-    border: 1px solid #ffffff;
 }
 
 div.desc {
@@ -212,9 +209,6 @@ div.desc {
 #flip {
     padding: 5px;
     font-size: 18px;
-    text-align: center;
+    text-align:left;
     background-color: silver;
-    color: white;
-    border: solid 1px blue;
-    border-radius: 3px
     }
