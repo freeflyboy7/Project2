@@ -3,10 +3,12 @@
 #nav {
     position:relative;
     top: 1px;
-    left: 127px;
-    background-color: #4183D7;
+    left: 227px;
+    background-color:none;
     font-size: 30px;
-    width: 80%;
+    width: 60%;
+    opacity: .7;
+    border-radius: 10px;
 
 
 }
@@ -29,7 +31,7 @@
     display:inline-block;
 }
 #nav ul li:hover{
-    background-color: #4183D7;
+    background-color: none;
     
 
 }                   /*//////////////////// menu text color*/
@@ -54,8 +56,8 @@
 
     display: none;
     position: absolute;
-    background-color: #4183D7;
-    border:5px solid #4183D7;
+    background-color: none;
+    border:5px solid none;
     border-top: 0;
     margin-left:-5px;
     min-width: 150px;
@@ -68,10 +70,10 @@
 
 }
 #nav ul ul li a{
-    color: white;
+    color: blue;
 }
 #nav ul ul li a:hover{
-    color: silver;
+    color: white;
     }              
 
 /* ////////////////////////////The end of the DropDown Menu*/
@@ -97,9 +99,8 @@ h1 span {
     background-color: silver;/*   Register Trade Mark     */
 }
 #pic1 {
-    width:80%;
-    /*     Header Picture      */
-    margin-top: 5px
+
+    position: relative;
 
 
 }     
@@ -123,13 +124,14 @@ blockquote {
     padding: 5px;
     margin-left: auto;
     position: relative;
-    top: 70px;
+    top: 270px;
     display: block;
     width:200px;
     font-family: italic,Helvetica;
     font-size: 24px;
 }
 #para1 {
+    padding: 20px;
     text-indent: 35px;
     width: 400px;
     float: left;
@@ -139,10 +141,20 @@ blockquote {
     font-size: 18px;
 }
 #para2  {
+    padding: 20px;
     text-indent: 35px;
     width: 400px;
     float: left;
     margin-left: 15px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+}
+#para11 {
+    float: right;
+    padding: 20px;
+    text-indent: 35px;
+    width: 400px;
     text-align: justify;
     line-height: 30px;
     font-size: 18px;
@@ -155,7 +167,9 @@ blockquote {
     left: 127px;
 }
 footer  {
-    float: left;
+   position: relative;
+   top: 50px;
+   left: 25px;
    clear: both;
    bottom:50px;
    left: 127px;
@@ -167,8 +181,9 @@ h6 {
     bottom: 30px;
 }
 #top {
-
-    float: right;
+    position: fixed;
+    bottom:10px;
+    left: 550px;
     display: inline;
     z-index: 3;
 }
@@ -189,16 +204,16 @@ h6 {
 }
 
 div.desc {
-  text-align: center;
-  font-weight: normal;
-  width: 120px;
-  margin: 5px;
+      text-align: center;
+      font-weight: normal;
+      width: 120px;
+      margin: 5px;
 }
 #flip {
     padding: 5px;
     font-size: 18px;
     text-align: center;
-    background-color: #silver;
+    background-color: silver;
     color: white;
     border: solid 1px blue;
     border-radius: 3px
